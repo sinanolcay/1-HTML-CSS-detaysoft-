@@ -1,0 +1,24 @@
+.kutu{
+    width: 200px;
+    background-color: burlywood;
+    padding: 20px; /*1.stil*/
+    padding-right: 50px; /*2.stil*/
+
+    padding: 10px 20px 30px 40px;  /*3.stil*/
+
+    padding: 20px 50px;
+
+    /*1.stil*/
+    margin: 20px;
+    /*2.stil*/
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.kutu2{
+    width: 200px;
+    background-color: indianred;
+    color: white;
+}

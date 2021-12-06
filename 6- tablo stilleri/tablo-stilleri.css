@@ -1,0 +1,48 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table, tr, td, th{
+    border: 2px solid #666;
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* tr td:nth-child(1){
+    background-color: yellow;
+} */
+
+tr td:nth-child(3){
+    text-align: center;
+}
+
+tr td:nth-child(2){
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd){
+    color: rgb(129, 187, 238);
+}
+
+tbody tr:nth-child(even){
+    background-color: green;
+}
+
+tr:first-child{
+    font-style: italic;
+    color: red;
+}
+
+/* hover */
+
+tbody tr:hover{
+    background-color: red;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .kutu1, .kutu2{
+            width: 100px;
+            height: 100px;
+           
+            float: left;
+
+        }
+
+        .kutu1{
+            background-color: coral;
+            z-index: -1;
+
+        }
+        .kutu1:hover{
+            background-color: lightcoral
+        }
+
+        .kutu2{
+            background-color: lightgreen;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            opacity: 0.6;
+            z-index: 1;
+        }
+
+        .kutu2:hover{
+            background-color: green;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="kutu1">Kutu1</div>
+    <div class="kutu2">Kutu2</div>
+    
+</body>
+</html>

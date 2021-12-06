@@ -1,0 +1,31 @@
+*{
+    font-size: 20px;
+}
+
+body{
+    background-color: #666;
+}
+
+#elem1{
+    background-color: #ff8899;
+}
+
+#elem2{
+    background-color: blue;
+}
+
+#elem3{
+    background-color: rgb(123, 65, 12);
+}
+
+#elem4{
+    color: white;
+  background-color: rgba(0,0,0,0.5);   /*  son değer opacity ayarlıyor */
+}
+
+p{
+    color: white;
+    background-image: url("images/manzara2.jpg");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}

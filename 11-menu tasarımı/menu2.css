@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0,0,0,0.78);
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid rgba(0,0,0,0.78);
+}
+
+.menu li{
+    float: left;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    padding: 0px 10px;
+}
+.menu li a:hover {
+    background-color: black;
+    color: orange;
+    border-bottom: 1px solid orange;
+    transition: all ease-in 0.8s;
+}
